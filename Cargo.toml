@@ -1,3 +1,13 @@
 [workspace]
 resolver = "2"
-members = ["defi_transaction", "energy_usage", "toy_rsa"]
+members = [ "data_provenance",
+  "defi_transaction",
+  "energy_usage",
+  "financial_protocol",
+  "game_logic", "regulatory_compliance", "smart_contract_audit",
+  "toy_rsa",
+]
+
+[workspace.dependencies]
+num-bigint = "0.4"
+num-traits = "0.2"
