@@ -47,7 +47,6 @@
 ---
 
 ## 7) **Game Logic**
-**Filename/Context:** `game_virtual_world.rs`  
 **Description:**  
 - Mimics server-side calculations for a game or virtual world: combat damage, resource forging, XP leveling. 
 
