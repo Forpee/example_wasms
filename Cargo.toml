@@ -1,8 +1,8 @@
 [workspace]
 resolver = "2"
-members = [ "data_provenance",
+members = [ "calculate-reward", "data_provenance",
   "defi_transaction",
-  "energy_usage",
+  "energy_usage", "energy_usage_32",
   "financial_protocol",
   "game_logic", "regulatory_compliance", "smart_contract_audit",
   "toy_rsa",
